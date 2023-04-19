@@ -8,6 +8,64 @@
   display: flex;
 }
 
+form {
+  text-align: center;
+}
+
+input {
+  margin: 5px
+}
+
 ul {
   list-style: none;
+  text-align: center;
+  padding: 10px;
+}
+
+li {
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  border: solid 2px black;
+}
+
+.card {
+  border: solid 3px black;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(165, 199, 200);
+  margin: 20px;
+  width: 250px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: darkslategrey;
+}
+
+.sub-div {
+  border: solid 2px black;
+}
+
+.repo-link {
+  font-size: x-large;
+  line-height: 200%;
+}
+
+#submit {
+  display: none;
+}
+
+.headers {
+  font-size: 1.75em;
 }
