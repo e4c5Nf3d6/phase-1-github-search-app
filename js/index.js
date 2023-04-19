@@ -105,6 +105,7 @@ function createListItem(user) {
                 const repoA = document.createElement('a')
                 repoA.href = repoLink
                 repoA.textContent = repoName
+                repoA.target = '_blank'
                 repoLi.appendChild(repoA)
                 repoList.appendChild(repoLi)
             })
@@ -139,6 +140,7 @@ function createRepoItem(repo) {
     let a = document.createElement('a')
     a.href = repo.html_url
     a.textContent = `${repo.name}`
+    a.target = '_blank'
     a.className = 'repo-link'
     li.appendChild(a)
 
